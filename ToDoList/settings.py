@@ -67,6 +67,7 @@ TEMPLATES = [
 				'django.template.context_processors.request',
 				'django.contrib.auth.context_processors.auth',
 				'django.contrib.messages.context_processors.messages',
+				'django.template.context_processors.request',
 			],
 		},
 	},
@@ -133,3 +134,5 @@ AUTHENTICATION_BACKENDS = (
 	'allauth.account.auth_backends.AuthenticationBackend',
 )
 SITE_ID = 1
+LOGIN_URL = 'login/'
+ACCOUNT_LOGOUT_REDIRECT_URL = '/accounts/login'
