@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 	'allauth',
 	'allauth.account',
 	'allauth.socialaccount',
+	'list',
+
 ]
 
 MIDDLEWARE_CLASSES = [
