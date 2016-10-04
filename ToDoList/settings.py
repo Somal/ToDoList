@@ -138,3 +138,5 @@ AUTHENTICATION_BACKENDS = (
 SITE_ID = 1
 LOGIN_URL = 'login/'
 ACCOUNT_LOGOUT_REDIRECT_URL = '/accounts/login'
+DONE = "Done"
+ACTIVE = "Active"

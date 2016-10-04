@@ -22,4 +22,5 @@ urlpatterns = [
 	url(r'^admin/', admin.site.urls),
 	url(r'^accounts/', include('allauth.urls')),
 	url(r'^accounts/profile', list.views.profile),
+	url(r'^select_(?P<id>.+)', list.views.selection)
 ]
